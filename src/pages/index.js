@@ -13,7 +13,7 @@ import { useState } from 'react'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useState(true)
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
