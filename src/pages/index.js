@@ -24,7 +24,7 @@ export default function Home() {
       </Head>
       <main className='bg-white px-10 md:px-40 lg:px-40 dark:bg-gray-900 dark:text-white'>
         <section className='min-h-screen'>
-          <nav className='py-10 mb-12 flex justify-between'>
+          <nav className='py-10 md:mb-10 flex justify-between'>
             <h1 className='text-2xl font-burtons hover:underline hover:underline-offset-8 cursor-pointer'>Mithun</h1>
             <ul className='flex items-center'>
               <li>
@@ -36,10 +36,10 @@ export default function Home() {
           </nav> 
           <div className='flex flex-wrap gap-10'>
             <div className='flex flex-col justify-center mx-auto'>
-              <h2 className='text-center text-4xl py-2 text-teal-600 font-medium sm:whitespace-nowrap md:text-6xl'>Mithun Surve</h2>
-              <h3 className='text-center text-xl py-2 italic md:text-3xl'>Full Stack Developer</h3>
-              <p className='text-md py-2 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto text-center dark:text-white'>I&apos;m a Javascript developer specialized in Full-Stack web applications.</p>
-              <div className='flex text-5xl gap-10 justify-center mt-3'>
+              <h2 className='text-center text-4xl md:py-2 text-teal-600 font-medium sm:whitespace-nowrap md:text-6xl'>Mithun Surve</h2>
+              <h3 className='text-center text-xl py-1 md:py-2 italic md:text-3xl'>Full Stack Developer</h3>
+              <p className='text-md md:py-2 leading-5 text-gray-800 md:text-xl max-w-lg mx-auto text-center dark:text-white'>I&apos;m a Javascript developer specialized in Full-Stack web applications.</p>
+              <div className='flex text-5xl gap-10 justify-center mt-7'>
                 <Icons icon={<AiFillTwitterCircle/>} url={"https://twitter.com/mithunsurve1"}/>
                 <Icons icon={<AiFillLinkedin/>} url={"https://www.linkedin.com/in/mithunsurve1809"}/>
                 <Icons icon={<AiFillGithub/>} url={"https://github.com/NormieNoob"}/>
