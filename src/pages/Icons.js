@@ -1,10 +1,11 @@
 import React from 'react'
+import Link from 'next/link'
 
-function Icons({icon}) {
+function Icons({icon, url}) {
   return (
-    <div className='icon'>
+    <Link className='icon' href={`${url}`} passHref={true} target="_blank">
         {icon}
-    </div>
+    </Link>
   )
 }
 
